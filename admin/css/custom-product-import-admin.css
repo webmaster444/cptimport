@@ -1,0 +1,80 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ /**
+ * FilePond Custom Styles
+ */
+.filepond--drop-label {
+	color: #4c4e53;
+	margin-top: 0px;
+    height: 430px;
+    width: 97.5%;
+    background: #f9fbfc;
+    border: 2px dashed #cbd5e0;
+    border-radius: 6px;
+}
+
+.filepond--label-action {
+	text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+	border-radius: 2em;
+	background-color: #edf0f4;
+	height: 1em;
+}
+
+.filepond--item-panel {
+	background-color: #595e68;
+}
+
+.filepond--drip-blob {
+	background-color: #7f8a9a;
+}
+
+.hide{
+	display: none;
+}
+
+button{
+    background: #00b9eb;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 50px;
+    cursor: pointer;
+}
+
+button svg{
+    width:30px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+button:hover,button:focus{
+	opacity: 0.8;
+}
+
+#columns_mapping_table td{
+	padding: 5px;
+}
+
+label{
+    margin: 5px 0;
+    display: inline-block;
+}
+
+#import_progress{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+}
+
+#wp-csv-importer-admin{
+    position: relative;
+}
